@@ -1,0 +1,23 @@
+{
+  "name": "Glider Stamina 25%",
+  "version": "JSON 1.10.01",
+  "author": "Rangel",
+  "description": "Reduces glider stamina consumption to roughly one quarter of the default value, allowing significantly longer flights while maintaining some resource usage.",
+  "game_version": "1.10.01",
+  "patches": [
+    {
+      "game_file": "gamedata/skill.pabgb",
+      "changes": [
+        {"offset": 516077,"label":"Skill_CrowWing","original":"F0D8","patched":"3CF6"},
+        {"offset": 516787,"label":"Extra normal duplicate","original":"F0D8","patched":"3CF6"},
+        {"offset": 517088,"label":"Skill_CrowWing_MoveFast","original":"E0B1","patched":"78EC"},
+        {"offset": 517490,"label":"Skill_Damian_ShieldGlider","original":"F0D8","patched":"3CF6"},
+        {"offset": 518235,"label":"Skill_Damian_ShieldGlider_MoveFast","original":"E0B1","patched":"78EC"},
+        {"offset": 518635,"label":"Skill_Oongka_RocketPack","original":"F0D8","patched":"3CF6"},
+        {"offset": 519377,"label":"Skill_Oongka_RocketPack_MoveFast","original":"E0B1","patched":"78EC"},
+        {"offset": 519795,"label":"Extra boost duplicate","original":"E0B1","patched":"78EC"},
+        {"offset": 515333,"label":"Additional Glider Reference","original":"E0B1","patched":"78EC"}
+      ]
+    }
+  ]
+}
